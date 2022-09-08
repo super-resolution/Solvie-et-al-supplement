@@ -1,0 +1,63 @@
+#
+# Dependencies for smlm analysis
+#
+# Create new environment: conda env create --file "./environment.yml"
+# Update existing environment: conda env update --file "./environment.yml"
+#
+channels:
+- open3d-admin
+- conda-forge
+- defaults
+
+dependencies:
+# Python
+- cython
+- pip
+- numba
+- tqdm
+
+# Python tests
+- pytest
+
+# Scientific python
+- numpy>1.17.0
+- pandas
+- scipy
+- scikit-learn
+- scikit-image
+- matplotlib
+- networkx
+- shapely
+- lmfit
+
+# Google
+- protobuf
+
+# File formats
+- ruamel.yaml
+- tifffile
+- asdf
+
+# Data analysis tools
+- hdbscan
+- boost-histogram
+- fast-histogram
+
+# Extra requirements
+- colorcet
+- trackpy
+- napari
+- mpl-scatter-density
+
+- pip:
+    - open3d!=0.12.0
+    - ray
+    - locan==0.10
+
+# Various issues
+- pydantic!=1.8.0
+
+# More
+- jupyterlab
+- seaborn
+- plotly

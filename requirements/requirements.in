@@ -1,0 +1,49 @@
+# Python
+cython
+numba
+tqdm
+
+# Python tests
+pytest
+
+# Scientific python
+numpy>1.17.0
+pandas
+scipy
+scikit-learn
+scikit-image
+matplotlib
+networkx
+shapely
+lmfit
+
+# Google
+protobuf
+
+# File formats
+ruamel.yaml
+tifffile
+asdf
+
+# Data analysis tools
+hdbscan
+boost-histogram
+fast-histogram
+
+# Extra requirements
+pyside2>=5.12.3
+colorcet
+trackpy
+open3d!=0.12.0
+mpl_scatter_density
+napari
+
+# Various issues
+pydantic!=1.8.0
+
+# more
+locan==0.10
+jupyterlab
+seaborn
+plotly
+ray

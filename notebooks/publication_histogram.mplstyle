@@ -1,0 +1,50 @@
+# https://matplotlib.org/tutorials/introductory/customizing.html#sphx-glr-tutorials-introductory-customizing-py
+
+# figure.figsize: 7.2, 7.2  # two-coloumn figure
+# figure.figsize: 7.2, 4.45  # golden ratio
+figure.figsize: 7.2, 5.8  # corresponds to 10, 8
+figure.autolayout: True
+font.size: 22
+font.family: Arial
+
+# axes.formatter.limits : -4, 4
+axes.titlesize : 22
+axes.labelsize : 21
+# axes.labelweight : bold
+axes.grid : False
+
+lines.linewidth : 2
+lines.markersize : 6
+
+patch.facecolor : y
+
+xtick.labelsize: 20
+ytick.labelsize: 20
+xtick.top : True
+ytick.right : True
+xtick.direction : in
+ytick.direction : in
+
+legend.frameon : False
+legend.fontsize: 19
+
+savefig.dpi : 1200
+savefig.bbox : tight
+
+axes.prop_cycle: cycler('color', ['a6cee3', '1f78b4', 'b2df8a', '33a02c'])
+
+                # cycler('color', ['fb9a99', 'a6cee3', 'e31a1c', '1f78b4'])
+
+                # cycler('color', list(seaborn.color_palette("Paired").as_hex()))                  
+
+                  #cycler('color', ['332288', '88CCEE', '44AA99', '117733', '999933', 'DDCC77', 'CC6677', '882255', 'AA4499'])
+                  # matplotlib default: "tab10"
+                  # cycler('color', ['1f77b4', 'ff7f0e', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+                  # color cycle for plot lines as list of string colorspecs:
+                  # single letter, long name, or web-style hex
+                  # As opposed to all other paramters in this file, the color
+                  # values must be enclosed in quotes for this parameter,
+                  # e.g. '1f77b4', instead of 1f77b4.
+                  # See also https://matplotlib.org/tutorials/intermediate/color_cycle.html
+                  # for more details on prop_cycle usage.
+
